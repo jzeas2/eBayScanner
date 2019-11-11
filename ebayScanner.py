@@ -71,7 +71,7 @@ str3 = str2[:strap2]
 #open the URL
 webbrowser.open(str3)
 
-#find item number in URL
+#find item number in source code
 item_num_loc = z.find("item=")
 item_num_end = z.find("&amp;",item_num_loc)
 item_num = z[item_num_loc+5:item_num_end]
